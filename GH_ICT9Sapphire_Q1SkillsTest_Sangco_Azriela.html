@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+</head>
+    <style>
+        h1{
+            color: rgb(44, 57, 133);
+            font-size: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(44, 57, 133)
+        }
+
+        p{
+            color: rgb(108, 104, 104);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        input[type="text"], input[type="tel"], input[type="email"], textarea, select {
+            width: 100%;
+            padding: 3px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        label{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        }
+
+        fieldset{
+            display: inline-block;
+        }
+
+
+    </style>
+
+<body style="background-image: url(robot.jpg);background-size: cover;">
+    <div class="form">
+    <!--INFO-->
+        <fieldset>
+        <h1>OBMC Robotics Club Application Form</h1><hr>
+        <p>Welcome! Please fill out this form to <b>apply</b> for our school's Robotics Club</p>
+            <!--NAME-->
+            <label for="fname">Full Name: </label>
+            <input id="fname" type="text"><br><br>
+             <!--EMAIL-->
+            <label for="email">Email Adress: </label>
+            <input id="email" type="email"><br><br>
+            <!--GRADE LEVEL-->
+                <label for="grade level">Grade Level: </label>
+                <select name="grade-level" id="level"><br><br>
+                    <option value="7">Grade 7</option>
+                    <option value="8">Grade 8</option>
+                    <option value="9">Grade 9</option>
+                    <option value="10">Grade 10</option>
+                    <option value="11">Grade 11</option>
+                    <option value="12">Grade 12</option>
+            <!--GENDER-->
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender">
+                <label for="male">Male</label><br><br>
+            <!--SKILLS-->
+            <label for="skills">What are your skills?</label><br>
+            <input type="checkbox" name="skills">
+            <label for="coding">Coding</label>
+            <input type="checkbox" name="skills">
+            <label for="design">Design</label>
+            <input type="checkbox" name="skills">
+            <label for="electronics">Electronics</label><br><br>
+            <!--JOIN-->
+            <label for="del-req">Tell us why you want to join: </label><br>
+            <textarea name="instructions" id="join"></textarea><br><br>
+
+            <h3>Top Robotics Activities We Offer:</h3>
+            <ul>
+                <li>Line Following Robots</li>
+                <li>Obstacle Avoidance Programming</li>
+                <li>Light Following Bot</li>
+            </ul>
+
+            <h3>Helpful Links:</h3>
+            <ol>
+                <li><a href="https://www.mtu.edu/academics/robotics/what/">What is Robotics?</a>
+                <li><a href="https://www.youtube.com/watch?v=0dwkGhRPQW4">Careers for Kids: Robotics</a></li>
+            </ol>
+
+            <center>
+                <input type="submit" value="Submit Review" class="button submit"><br>
+            </center>
+    </div>
+
+    <center>
+    <footer>
+        <p>&copy; 2026 Robotics Application Form | Created by Azriela Sangco, 9-Sapphire</p>
+    </footer>
+</center>
+
+</body>
+
+</html>
